@@ -1,7 +1,8 @@
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
-import { Low, JSONFile } from 'lowdb';
+import { Low } from 'lowdb';
+import { JSONFile } from 'lowdb/node';
 import { userRouter } from './routers/users.router.js';
 import { mainErrorHandler, noRouteHandler } from './middlewares/errorHandler.middleware.js';
 import { env } from './config/environment.js';
