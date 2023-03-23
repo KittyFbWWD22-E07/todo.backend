@@ -6,6 +6,13 @@
       "password": "hallihallo23",
       "email": "jdoe@mail.com",
       "id": 1
+    },
+    {
+      "fullname": "Keurah Cathnott",
+      "username": "kittycath",
+      "password": "balooba123",
+      "email": "kcathnott@mail.com",
+      "id": 2
     }
   ]
 }
